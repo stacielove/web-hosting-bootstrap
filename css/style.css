@@ -1,3 +1,43 @@
 body {
-  padding-top: 50px;
+  padding-top: 40px;
+}
+
+/*Main Carousel*/
+.carousel {
+	min-height: 500px;
+	margin-bottom: 60px;
+}
+
+/*Carousel Caption*/
+.carousel-caption {
+	z-index: 10;
+	text-align: left;
+	top: 70px;
+	right: 10%;
+	left: 10%;
+	font-size: 22px;
+}
+
+.carousel .item {
+	height: 500px; 
+	background-color: #777;
+}
+
+.carousel-inner > .item > img {
+	position: relative;
+	top: 0px;
+	left: 0;
+	min-width: 100%;
+	height: 500px;
+}
+
+/*On larger screens this comes to the edge of it's Div ?*/
+.server-image {
+	position: relative;
+	top: -50px;
+	width: 100%;
+}
+
+.feature-list {
+	list-style: none;
 }
