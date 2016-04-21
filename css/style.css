@@ -1,11 +1,11 @@
 body {
-  padding-top: 40px;
+  padding-top: 30px;
 }
 
-/*section {
-	margin: 30px 0;
+section {
+	margin: 30px 0 50px 0;
 }
-*/
+
 
 /*Main Carousel*/
 .carousel {
@@ -50,9 +50,13 @@ body {
 /*Marketing Section*/
 .marketing {
 	text-align: center;
-	margin: 30px 0;
 }
 
 .marketing h2 {
 	font-weight: normal;
+}
+
+/*Price Table Section */
+.price strong {
+	font-size: 32px;
 }
